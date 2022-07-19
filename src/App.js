@@ -68,7 +68,7 @@ function App() {
       <button onClick={ () => onClick()}>+</button>
       <input type="email" required onChange = {(e) => {text = e.target.value} }/>
       <br />
-      <button onClick={farterFunction}>Secret button</button>
+      <button className='btn' onClick={farterFunction}>Secret button</button>
       
       </div>
             
