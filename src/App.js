@@ -56,7 +56,6 @@ function App() {
       {boolean ? (
         <>
           <img src={stinky} alt="stinky"/>
-          <h1>CUM IN MY ASS</h1>
         </>
         ) : (
           <>
@@ -67,7 +66,7 @@ function App() {
         return (<h3 key={item.id}>{item.value}</h3>)
       })}
       <button onClick={ () => onClick()}>+</button>
-      <input onChange = {(e) => {text = e.target.value} }/>
+      <input type="email" required onChange = {(e) => {text = e.target.value} }/>
       <br />
       <button onClick={farterFunction}>Secret button</button>
       
